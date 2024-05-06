@@ -4,10 +4,7 @@ def is_palindrome(word):
     Argument:
     word (string type)
     """
-    if word == word[::-1]:
-        return True
-    else:
-        return False
+    return word == word[::-1]
     
 
 print(is_palindrome("kajak"))
